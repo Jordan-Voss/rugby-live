@@ -1,0 +1,3423 @@
+{
+  "mode": "sample",
+  "defaultDate": "2026-11-14",
+  "teams": [
+    {
+      "id": "south-africa",
+      "name": "South Africa",
+      "abbreviation": "SA",
+      "primary": "#007a45",
+      "secondary": "#ffcf31",
+      "country": "South Africa",
+      "kind": "international",
+      "gender": "men",
+      "sample": true
+    },
+    {
+      "id": "new-zealand",
+      "name": "New Zealand",
+      "abbreviation": "NZ",
+      "primary": "#171d25",
+      "secondary": "#ffffff",
+      "country": "New Zealand",
+      "kind": "international",
+      "gender": "men",
+      "sample": true
+    },
+    {
+      "id": "ireland",
+      "name": "Ireland",
+      "abbreviation": "IRE",
+      "primary": "#159c67",
+      "secondary": "#f5f5f5",
+      "country": "Ireland",
+      "kind": "international",
+      "gender": "men",
+      "sample": true
+    },
+    {
+      "id": "argentina",
+      "name": "Argentina",
+      "abbreviation": "ARG",
+      "primary": "#64b5e8",
+      "secondary": "#ffffff",
+      "country": "Argentina",
+      "kind": "international",
+      "gender": "men",
+      "sample": true
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "abbreviation": "FRA",
+      "primary": "#1744b3",
+      "secondary": "#e7384f",
+      "country": "France",
+      "kind": "international",
+      "gender": "men",
+      "sample": true
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "abbreviation": "AUS",
+      "primary": "#e7b720",
+      "secondary": "#06563a",
+      "country": "Australia",
+      "kind": "international",
+      "gender": "men",
+      "sample": true
+    },
+    {
+      "id": "leinster",
+      "name": "Leinster",
+      "abbreviation": "LEI",
+      "primary": "#174aaf",
+      "secondary": "#e0c368",
+      "country": "Ireland",
+      "kind": "club",
+      "gender": "men",
+      "sample": true
+    },
+    {
+      "id": "munster",
+      "name": "Munster",
+      "abbreviation": "MUN",
+      "primary": "#c9233e",
+      "secondary": "#173462",
+      "country": "Ireland",
+      "kind": "club",
+      "gender": "men",
+      "sample": true
+    },
+    {
+      "id": "glasgow",
+      "name": "Glasgow Warriors",
+      "abbreviation": "GLA",
+      "primary": "#172f4a",
+      "secondary": "#72b9df",
+      "country": "Scotland",
+      "kind": "club",
+      "gender": "men",
+      "sample": true
+    },
+    {
+      "id": "edinburgh",
+      "name": "Edinburgh",
+      "abbreviation": "EDI",
+      "primary": "#e56c35",
+      "secondary": "#172943",
+      "country": "Scotland",
+      "kind": "club",
+      "gender": "men",
+      "sample": true
+    },
+    {
+      "id": "england-women",
+      "name": "England Women",
+      "abbreviation": "ENG",
+      "primary": "#d82842",
+      "secondary": "#ffffff",
+      "country": "England",
+      "kind": "international",
+      "gender": "women",
+      "sample": true
+    },
+    {
+      "id": "new-zealand-women",
+      "name": "New Zealand Women",
+      "abbreviation": "NZ",
+      "primary": "#171d25",
+      "secondary": "#ffffff",
+      "country": "New Zealand",
+      "kind": "international",
+      "gender": "women",
+      "sample": true
+    }
+  ],
+  "competitions": [
+    {
+      "id": "internationals-men",
+      "name": "International rugby",
+      "shortName": "Internationals",
+      "gender": "men",
+      "region": "Worldwide",
+      "season": "2026",
+      "icon": "globe",
+      "description": "Men’s rugby union international fixtures and results.",
+      "historicNames": [
+        "Autumn internationals",
+        "Autumn Nations Series"
+      ]
+    },
+    {
+      "id": "urc",
+      "name": "United Rugby Championship",
+      "shortName": "URC",
+      "gender": "men",
+      "region": "Europe & South Africa",
+      "season": "2026/27",
+      "icon": "shield",
+      "description": "Club rugby across Ireland, Italy, Scotland, South Africa and Wales.",
+      "historicNames": [
+        "Celtic League",
+        "Pro12",
+        "Pro14",
+        "United Rugby Championship"
+      ]
+    },
+    {
+      "id": "internationals-women",
+      "name": "Women’s internationals",
+      "shortName": "Women’s internationals",
+      "gender": "women",
+      "region": "Worldwide",
+      "season": "2026",
+      "icon": "globe",
+      "description": "Women’s rugby union international fixtures and results.",
+      "historicNames": []
+    }
+  ],
+  "players": [
+    {
+      "id": "south-africa-p01",
+      "teamId": "south-africa",
+      "name": "Ox Nché",
+      "number": 1,
+      "position": "Loosehead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 4,
+        "metres": 13,
+        "tackles": 2,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "south-africa-p02",
+      "teamId": "south-africa",
+      "name": "Bongi Mbonambi",
+      "number": 2,
+      "position": "Hooker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 7,
+        "metres": 24,
+        "tackles": 7,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "south-africa-p03",
+      "teamId": "south-africa",
+      "name": "Frans Malherbe",
+      "number": 3,
+      "position": "Tighthead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 10,
+        "metres": 35,
+        "tackles": 12,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "south-africa-p04",
+      "teamId": "south-africa",
+      "name": "Eben Etzebeth",
+      "number": 4,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 13,
+        "metres": 46,
+        "tackles": 17,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "south-africa-p05",
+      "teamId": "south-africa",
+      "name": "RG Snyman",
+      "number": 5,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 16,
+        "metres": 57,
+        "tackles": 3,
+        "passes": 29,
+        "tries": 0
+      }
+    },
+    {
+      "id": "south-africa-p06",
+      "teamId": "south-africa",
+      "name": "Siya Kolisi",
+      "number": 6,
+      "position": "Blindside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 2,
+        "metres": 68,
+        "tackles": 8,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "south-africa-p07",
+      "teamId": "south-africa",
+      "name": "Pieter-Steph du Toit",
+      "number": 7,
+      "position": "Openside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 5,
+        "metres": 79,
+        "tackles": 13,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "south-africa-p08",
+      "teamId": "south-africa",
+      "name": "Jasper Wiese",
+      "number": 8,
+      "position": "Number eight",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 8,
+        "metres": 3,
+        "tackles": 18,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "south-africa-p09",
+      "teamId": "south-africa",
+      "name": "Grant Williams",
+      "number": 9,
+      "position": "Scrum-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 11,
+        "metres": 14,
+        "tackles": 4,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "south-africa-p10",
+      "teamId": "south-africa",
+      "name": "Handré Pollard",
+      "number": 10,
+      "position": "Fly-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 14,
+        "metres": 25,
+        "tackles": 9,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "south-africa-p11",
+      "teamId": "south-africa",
+      "name": "Makazole Mapimpi",
+      "number": 11,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 0,
+        "metres": 36,
+        "tackles": 14,
+        "passes": 29,
+        "tries": 1
+      }
+    },
+    {
+      "id": "south-africa-p12",
+      "teamId": "south-africa",
+      "name": "Damian de Allende",
+      "number": 12,
+      "position": "Inside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 3,
+        "metres": 47,
+        "tackles": 0,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "south-africa-p13",
+      "teamId": "south-africa",
+      "name": "Jesse Kriel",
+      "number": 13,
+      "position": "Outside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 6,
+        "metres": 58,
+        "tackles": 5,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "south-africa-p14",
+      "teamId": "south-africa",
+      "name": "Cheslin Kolbe",
+      "number": 14,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 9,
+        "metres": 69,
+        "tackles": 10,
+        "passes": 8,
+        "tries": 1
+      }
+    },
+    {
+      "id": "south-africa-p15",
+      "teamId": "south-africa",
+      "name": "Aphelele Fassi",
+      "number": 15,
+      "position": "Full-back",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 12,
+        "metres": 80,
+        "tackles": 15,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-p01",
+      "teamId": "new-zealand",
+      "name": "Ethan de Groot",
+      "number": 1,
+      "position": "Loosehead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 4,
+        "metres": 13,
+        "tackles": 2,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-p02",
+      "teamId": "new-zealand",
+      "name": "Codie Taylor",
+      "number": 2,
+      "position": "Hooker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 7,
+        "metres": 24,
+        "tackles": 7,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-p03",
+      "teamId": "new-zealand",
+      "name": "Tyrel Lomax",
+      "number": 3,
+      "position": "Tighthead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 10,
+        "metres": 35,
+        "tackles": 12,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-p04",
+      "teamId": "new-zealand",
+      "name": "Scott Barrett",
+      "number": 4,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 13,
+        "metres": 46,
+        "tackles": 17,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-p05",
+      "teamId": "new-zealand",
+      "name": "Tupou Vaa’i",
+      "number": 5,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 16,
+        "metres": 57,
+        "tackles": 3,
+        "passes": 29,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-p06",
+      "teamId": "new-zealand",
+      "name": "Samipeni Finau",
+      "number": 6,
+      "position": "Blindside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 2,
+        "metres": 68,
+        "tackles": 8,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-p07",
+      "teamId": "new-zealand",
+      "name": "Ardie Savea",
+      "number": 7,
+      "position": "Openside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 5,
+        "metres": 79,
+        "tackles": 13,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-p08",
+      "teamId": "new-zealand",
+      "name": "Wallace Sititi",
+      "number": 8,
+      "position": "Number eight",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 8,
+        "metres": 3,
+        "tackles": 18,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-p09",
+      "teamId": "new-zealand",
+      "name": "Cam Roigard",
+      "number": 9,
+      "position": "Scrum-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 11,
+        "metres": 14,
+        "tackles": 4,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-p10",
+      "teamId": "new-zealand",
+      "name": "Beauden Barrett",
+      "number": 10,
+      "position": "Fly-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 14,
+        "metres": 25,
+        "tackles": 9,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-p11",
+      "teamId": "new-zealand",
+      "name": "Caleb Clarke",
+      "number": 11,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 0,
+        "metres": 36,
+        "tackles": 14,
+        "passes": 29,
+        "tries": 1
+      }
+    },
+    {
+      "id": "new-zealand-p12",
+      "teamId": "new-zealand",
+      "name": "Jordie Barrett",
+      "number": 12,
+      "position": "Inside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 3,
+        "metres": 47,
+        "tackles": 0,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-p13",
+      "teamId": "new-zealand",
+      "name": "Rieko Ioane",
+      "number": 13,
+      "position": "Outside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 6,
+        "metres": 58,
+        "tackles": 5,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-p14",
+      "teamId": "new-zealand",
+      "name": "Sevu Reece",
+      "number": 14,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 9,
+        "metres": 69,
+        "tackles": 10,
+        "passes": 8,
+        "tries": 1
+      }
+    },
+    {
+      "id": "new-zealand-p15",
+      "teamId": "new-zealand",
+      "name": "Will Jordan",
+      "number": 15,
+      "position": "Full-back",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 12,
+        "metres": 80,
+        "tackles": 15,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "ireland-p01",
+      "teamId": "ireland",
+      "name": "Andrew Porter",
+      "number": 1,
+      "position": "Loosehead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 4,
+        "metres": 13,
+        "tackles": 2,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "ireland-p02",
+      "teamId": "ireland",
+      "name": "Dan Sheehan",
+      "number": 2,
+      "position": "Hooker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 7,
+        "metres": 24,
+        "tackles": 7,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "ireland-p03",
+      "teamId": "ireland",
+      "name": "Tadhg Furlong",
+      "number": 3,
+      "position": "Tighthead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 10,
+        "metres": 35,
+        "tackles": 12,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "ireland-p04",
+      "teamId": "ireland",
+      "name": "Joe McCarthy",
+      "number": 4,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 13,
+        "metres": 46,
+        "tackles": 17,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "ireland-p05",
+      "teamId": "ireland",
+      "name": "James Ryan",
+      "number": 5,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 16,
+        "metres": 57,
+        "tackles": 3,
+        "passes": 29,
+        "tries": 0
+      }
+    },
+    {
+      "id": "ireland-p06",
+      "teamId": "ireland",
+      "name": "Tadhg Beirne",
+      "number": 6,
+      "position": "Blindside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 2,
+        "metres": 68,
+        "tackles": 8,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "ireland-p07",
+      "teamId": "ireland",
+      "name": "Josh van der Flier",
+      "number": 7,
+      "position": "Openside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 5,
+        "metres": 79,
+        "tackles": 13,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "ireland-p08",
+      "teamId": "ireland",
+      "name": "Caelan Doris",
+      "number": 8,
+      "position": "Number eight",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 8,
+        "metres": 3,
+        "tackles": 18,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "ireland-p09",
+      "teamId": "ireland",
+      "name": "Jamison Gibson-Park",
+      "number": 9,
+      "position": "Scrum-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 11,
+        "metres": 14,
+        "tackles": 4,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "ireland-p10",
+      "teamId": "ireland",
+      "name": "Sam Prendergast",
+      "number": 10,
+      "position": "Fly-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 14,
+        "metres": 25,
+        "tackles": 9,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "ireland-p11",
+      "teamId": "ireland",
+      "name": "James Lowe",
+      "number": 11,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 0,
+        "metres": 36,
+        "tackles": 14,
+        "passes": 29,
+        "tries": 1
+      }
+    },
+    {
+      "id": "ireland-p12",
+      "teamId": "ireland",
+      "name": "Bundee Aki",
+      "number": 12,
+      "position": "Inside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 3,
+        "metres": 47,
+        "tackles": 0,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "ireland-p13",
+      "teamId": "ireland",
+      "name": "Garry Ringrose",
+      "number": 13,
+      "position": "Outside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 6,
+        "metres": 58,
+        "tackles": 5,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "ireland-p14",
+      "teamId": "ireland",
+      "name": "Mack Hansen",
+      "number": 14,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 9,
+        "metres": 69,
+        "tackles": 10,
+        "passes": 8,
+        "tries": 1
+      }
+    },
+    {
+      "id": "ireland-p15",
+      "teamId": "ireland",
+      "name": "Hugo Keenan",
+      "number": 15,
+      "position": "Full-back",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 12,
+        "metres": 80,
+        "tackles": 15,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "argentina-p01",
+      "teamId": "argentina",
+      "name": "ARG Player 1",
+      "number": 1,
+      "position": "Loosehead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 4,
+        "metres": 13,
+        "tackles": 2,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "argentina-p02",
+      "teamId": "argentina",
+      "name": "ARG Player 2",
+      "number": 2,
+      "position": "Hooker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 7,
+        "metres": 24,
+        "tackles": 7,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "argentina-p03",
+      "teamId": "argentina",
+      "name": "ARG Player 3",
+      "number": 3,
+      "position": "Tighthead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 10,
+        "metres": 35,
+        "tackles": 12,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "argentina-p04",
+      "teamId": "argentina",
+      "name": "ARG Player 4",
+      "number": 4,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 13,
+        "metres": 46,
+        "tackles": 17,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "argentina-p05",
+      "teamId": "argentina",
+      "name": "ARG Player 5",
+      "number": 5,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 16,
+        "metres": 57,
+        "tackles": 3,
+        "passes": 29,
+        "tries": 0
+      }
+    },
+    {
+      "id": "argentina-p06",
+      "teamId": "argentina",
+      "name": "ARG Player 6",
+      "number": 6,
+      "position": "Blindside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 2,
+        "metres": 68,
+        "tackles": 8,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "argentina-p07",
+      "teamId": "argentina",
+      "name": "ARG Player 7",
+      "number": 7,
+      "position": "Openside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 5,
+        "metres": 79,
+        "tackles": 13,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "argentina-p08",
+      "teamId": "argentina",
+      "name": "ARG Player 8",
+      "number": 8,
+      "position": "Number eight",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 8,
+        "metres": 3,
+        "tackles": 18,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "argentina-p09",
+      "teamId": "argentina",
+      "name": "ARG Player 9",
+      "number": 9,
+      "position": "Scrum-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 11,
+        "metres": 14,
+        "tackles": 4,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "argentina-p10",
+      "teamId": "argentina",
+      "name": "ARG Player 10",
+      "number": 10,
+      "position": "Fly-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 14,
+        "metres": 25,
+        "tackles": 9,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "argentina-p11",
+      "teamId": "argentina",
+      "name": "ARG Player 11",
+      "number": 11,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 0,
+        "metres": 36,
+        "tackles": 14,
+        "passes": 29,
+        "tries": 1
+      }
+    },
+    {
+      "id": "argentina-p12",
+      "teamId": "argentina",
+      "name": "ARG Player 12",
+      "number": 12,
+      "position": "Inside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 3,
+        "metres": 47,
+        "tackles": 0,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "argentina-p13",
+      "teamId": "argentina",
+      "name": "ARG Player 13",
+      "number": 13,
+      "position": "Outside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 6,
+        "metres": 58,
+        "tackles": 5,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "argentina-p14",
+      "teamId": "argentina",
+      "name": "ARG Player 14",
+      "number": 14,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 9,
+        "metres": 69,
+        "tackles": 10,
+        "passes": 8,
+        "tries": 1
+      }
+    },
+    {
+      "id": "argentina-p15",
+      "teamId": "argentina",
+      "name": "ARG Player 15",
+      "number": 15,
+      "position": "Full-back",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 12,
+        "metres": 80,
+        "tackles": 15,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "france-p01",
+      "teamId": "france",
+      "name": "FRA Player 1",
+      "number": 1,
+      "position": "Loosehead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 4,
+        "metres": 13,
+        "tackles": 2,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "france-p02",
+      "teamId": "france",
+      "name": "FRA Player 2",
+      "number": 2,
+      "position": "Hooker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 7,
+        "metres": 24,
+        "tackles": 7,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "france-p03",
+      "teamId": "france",
+      "name": "FRA Player 3",
+      "number": 3,
+      "position": "Tighthead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 10,
+        "metres": 35,
+        "tackles": 12,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "france-p04",
+      "teamId": "france",
+      "name": "FRA Player 4",
+      "number": 4,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 13,
+        "metres": 46,
+        "tackles": 17,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "france-p05",
+      "teamId": "france",
+      "name": "FRA Player 5",
+      "number": 5,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 16,
+        "metres": 57,
+        "tackles": 3,
+        "passes": 29,
+        "tries": 0
+      }
+    },
+    {
+      "id": "france-p06",
+      "teamId": "france",
+      "name": "FRA Player 6",
+      "number": 6,
+      "position": "Blindside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 2,
+        "metres": 68,
+        "tackles": 8,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "france-p07",
+      "teamId": "france",
+      "name": "FRA Player 7",
+      "number": 7,
+      "position": "Openside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 5,
+        "metres": 79,
+        "tackles": 13,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "france-p08",
+      "teamId": "france",
+      "name": "FRA Player 8",
+      "number": 8,
+      "position": "Number eight",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 8,
+        "metres": 3,
+        "tackles": 18,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "france-p09",
+      "teamId": "france",
+      "name": "FRA Player 9",
+      "number": 9,
+      "position": "Scrum-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 11,
+        "metres": 14,
+        "tackles": 4,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "france-p10",
+      "teamId": "france",
+      "name": "FRA Player 10",
+      "number": 10,
+      "position": "Fly-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 14,
+        "metres": 25,
+        "tackles": 9,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "france-p11",
+      "teamId": "france",
+      "name": "FRA Player 11",
+      "number": 11,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 0,
+        "metres": 36,
+        "tackles": 14,
+        "passes": 29,
+        "tries": 1
+      }
+    },
+    {
+      "id": "france-p12",
+      "teamId": "france",
+      "name": "FRA Player 12",
+      "number": 12,
+      "position": "Inside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 3,
+        "metres": 47,
+        "tackles": 0,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "france-p13",
+      "teamId": "france",
+      "name": "FRA Player 13",
+      "number": 13,
+      "position": "Outside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 6,
+        "metres": 58,
+        "tackles": 5,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "france-p14",
+      "teamId": "france",
+      "name": "FRA Player 14",
+      "number": 14,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 9,
+        "metres": 69,
+        "tackles": 10,
+        "passes": 8,
+        "tries": 1
+      }
+    },
+    {
+      "id": "france-p15",
+      "teamId": "france",
+      "name": "FRA Player 15",
+      "number": 15,
+      "position": "Full-back",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 12,
+        "metres": 80,
+        "tackles": 15,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "australia-p01",
+      "teamId": "australia",
+      "name": "AUS Player 1",
+      "number": 1,
+      "position": "Loosehead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 4,
+        "metres": 13,
+        "tackles": 2,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "australia-p02",
+      "teamId": "australia",
+      "name": "AUS Player 2",
+      "number": 2,
+      "position": "Hooker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 7,
+        "metres": 24,
+        "tackles": 7,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "australia-p03",
+      "teamId": "australia",
+      "name": "AUS Player 3",
+      "number": 3,
+      "position": "Tighthead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 10,
+        "metres": 35,
+        "tackles": 12,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "australia-p04",
+      "teamId": "australia",
+      "name": "AUS Player 4",
+      "number": 4,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 13,
+        "metres": 46,
+        "tackles": 17,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "australia-p05",
+      "teamId": "australia",
+      "name": "AUS Player 5",
+      "number": 5,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 16,
+        "metres": 57,
+        "tackles": 3,
+        "passes": 29,
+        "tries": 0
+      }
+    },
+    {
+      "id": "australia-p06",
+      "teamId": "australia",
+      "name": "AUS Player 6",
+      "number": 6,
+      "position": "Blindside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 2,
+        "metres": 68,
+        "tackles": 8,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "australia-p07",
+      "teamId": "australia",
+      "name": "AUS Player 7",
+      "number": 7,
+      "position": "Openside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 5,
+        "metres": 79,
+        "tackles": 13,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "australia-p08",
+      "teamId": "australia",
+      "name": "AUS Player 8",
+      "number": 8,
+      "position": "Number eight",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 8,
+        "metres": 3,
+        "tackles": 18,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "australia-p09",
+      "teamId": "australia",
+      "name": "AUS Player 9",
+      "number": 9,
+      "position": "Scrum-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 11,
+        "metres": 14,
+        "tackles": 4,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "australia-p10",
+      "teamId": "australia",
+      "name": "AUS Player 10",
+      "number": 10,
+      "position": "Fly-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 14,
+        "metres": 25,
+        "tackles": 9,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "australia-p11",
+      "teamId": "australia",
+      "name": "AUS Player 11",
+      "number": 11,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 0,
+        "metres": 36,
+        "tackles": 14,
+        "passes": 29,
+        "tries": 1
+      }
+    },
+    {
+      "id": "australia-p12",
+      "teamId": "australia",
+      "name": "AUS Player 12",
+      "number": 12,
+      "position": "Inside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 3,
+        "metres": 47,
+        "tackles": 0,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "australia-p13",
+      "teamId": "australia",
+      "name": "AUS Player 13",
+      "number": 13,
+      "position": "Outside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 6,
+        "metres": 58,
+        "tackles": 5,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "australia-p14",
+      "teamId": "australia",
+      "name": "AUS Player 14",
+      "number": 14,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 9,
+        "metres": 69,
+        "tackles": 10,
+        "passes": 8,
+        "tries": 1
+      }
+    },
+    {
+      "id": "australia-p15",
+      "teamId": "australia",
+      "name": "AUS Player 15",
+      "number": 15,
+      "position": "Full-back",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 12,
+        "metres": 80,
+        "tackles": 15,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "leinster-p01",
+      "teamId": "leinster",
+      "name": "Andrew Porter",
+      "number": 1,
+      "position": "Loosehead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 4,
+        "metres": 13,
+        "tackles": 2,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "leinster-p02",
+      "teamId": "leinster",
+      "name": "Dan Sheehan",
+      "number": 2,
+      "position": "Hooker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 7,
+        "metres": 24,
+        "tackles": 7,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "leinster-p03",
+      "teamId": "leinster",
+      "name": "Tadhg Furlong",
+      "number": 3,
+      "position": "Tighthead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 10,
+        "metres": 35,
+        "tackles": 12,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "leinster-p04",
+      "teamId": "leinster",
+      "name": "Joe McCarthy",
+      "number": 4,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 13,
+        "metres": 46,
+        "tackles": 17,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "leinster-p05",
+      "teamId": "leinster",
+      "name": "James Ryan",
+      "number": 5,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 16,
+        "metres": 57,
+        "tackles": 3,
+        "passes": 29,
+        "tries": 0
+      }
+    },
+    {
+      "id": "leinster-p06",
+      "teamId": "leinster",
+      "name": "Ryan Baird",
+      "number": 6,
+      "position": "Blindside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 2,
+        "metres": 68,
+        "tackles": 8,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "leinster-p07",
+      "teamId": "leinster",
+      "name": "Josh van der Flier",
+      "number": 7,
+      "position": "Openside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 5,
+        "metres": 79,
+        "tackles": 13,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "leinster-p08",
+      "teamId": "leinster",
+      "name": "Caelan Doris",
+      "number": 8,
+      "position": "Number eight",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 8,
+        "metres": 3,
+        "tackles": 18,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "leinster-p09",
+      "teamId": "leinster",
+      "name": "Jamison Gibson-Park",
+      "number": 9,
+      "position": "Scrum-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 11,
+        "metres": 14,
+        "tackles": 4,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "leinster-p10",
+      "teamId": "leinster",
+      "name": "Sam Prendergast",
+      "number": 10,
+      "position": "Fly-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 14,
+        "metres": 25,
+        "tackles": 9,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "leinster-p11",
+      "teamId": "leinster",
+      "name": "James Lowe",
+      "number": 11,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 0,
+        "metres": 36,
+        "tackles": 14,
+        "passes": 29,
+        "tries": 1
+      }
+    },
+    {
+      "id": "leinster-p12",
+      "teamId": "leinster",
+      "name": "Robbie Henshaw",
+      "number": 12,
+      "position": "Inside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 3,
+        "metres": 47,
+        "tackles": 0,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "leinster-p13",
+      "teamId": "leinster",
+      "name": "Garry Ringrose",
+      "number": 13,
+      "position": "Outside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 6,
+        "metres": 58,
+        "tackles": 5,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "leinster-p14",
+      "teamId": "leinster",
+      "name": "Jordan Larmour",
+      "number": 14,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 9,
+        "metres": 69,
+        "tackles": 10,
+        "passes": 8,
+        "tries": 1
+      }
+    },
+    {
+      "id": "leinster-p15",
+      "teamId": "leinster",
+      "name": "Hugo Keenan",
+      "number": 15,
+      "position": "Full-back",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 12,
+        "metres": 80,
+        "tackles": 15,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "munster-p01",
+      "teamId": "munster",
+      "name": "MUN Player 1",
+      "number": 1,
+      "position": "Loosehead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 4,
+        "metres": 13,
+        "tackles": 2,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "munster-p02",
+      "teamId": "munster",
+      "name": "MUN Player 2",
+      "number": 2,
+      "position": "Hooker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 7,
+        "metres": 24,
+        "tackles": 7,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "munster-p03",
+      "teamId": "munster",
+      "name": "MUN Player 3",
+      "number": 3,
+      "position": "Tighthead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 10,
+        "metres": 35,
+        "tackles": 12,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "munster-p04",
+      "teamId": "munster",
+      "name": "MUN Player 4",
+      "number": 4,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 13,
+        "metres": 46,
+        "tackles": 17,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "munster-p05",
+      "teamId": "munster",
+      "name": "MUN Player 5",
+      "number": 5,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 16,
+        "metres": 57,
+        "tackles": 3,
+        "passes": 29,
+        "tries": 0
+      }
+    },
+    {
+      "id": "munster-p06",
+      "teamId": "munster",
+      "name": "MUN Player 6",
+      "number": 6,
+      "position": "Blindside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 2,
+        "metres": 68,
+        "tackles": 8,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "munster-p07",
+      "teamId": "munster",
+      "name": "MUN Player 7",
+      "number": 7,
+      "position": "Openside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 5,
+        "metres": 79,
+        "tackles": 13,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "munster-p08",
+      "teamId": "munster",
+      "name": "MUN Player 8",
+      "number": 8,
+      "position": "Number eight",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 8,
+        "metres": 3,
+        "tackles": 18,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "munster-p09",
+      "teamId": "munster",
+      "name": "MUN Player 9",
+      "number": 9,
+      "position": "Scrum-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 11,
+        "metres": 14,
+        "tackles": 4,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "munster-p10",
+      "teamId": "munster",
+      "name": "MUN Player 10",
+      "number": 10,
+      "position": "Fly-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 14,
+        "metres": 25,
+        "tackles": 9,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "munster-p11",
+      "teamId": "munster",
+      "name": "MUN Player 11",
+      "number": 11,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 0,
+        "metres": 36,
+        "tackles": 14,
+        "passes": 29,
+        "tries": 1
+      }
+    },
+    {
+      "id": "munster-p12",
+      "teamId": "munster",
+      "name": "MUN Player 12",
+      "number": 12,
+      "position": "Inside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 3,
+        "metres": 47,
+        "tackles": 0,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "munster-p13",
+      "teamId": "munster",
+      "name": "MUN Player 13",
+      "number": 13,
+      "position": "Outside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 6,
+        "metres": 58,
+        "tackles": 5,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "munster-p14",
+      "teamId": "munster",
+      "name": "MUN Player 14",
+      "number": 14,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 9,
+        "metres": 69,
+        "tackles": 10,
+        "passes": 8,
+        "tries": 1
+      }
+    },
+    {
+      "id": "munster-p15",
+      "teamId": "munster",
+      "name": "MUN Player 15",
+      "number": 15,
+      "position": "Full-back",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 12,
+        "metres": 80,
+        "tackles": 15,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "glasgow-p01",
+      "teamId": "glasgow",
+      "name": "GLA Player 1",
+      "number": 1,
+      "position": "Loosehead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 4,
+        "metres": 13,
+        "tackles": 2,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "glasgow-p02",
+      "teamId": "glasgow",
+      "name": "GLA Player 2",
+      "number": 2,
+      "position": "Hooker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 7,
+        "metres": 24,
+        "tackles": 7,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "glasgow-p03",
+      "teamId": "glasgow",
+      "name": "GLA Player 3",
+      "number": 3,
+      "position": "Tighthead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 10,
+        "metres": 35,
+        "tackles": 12,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "glasgow-p04",
+      "teamId": "glasgow",
+      "name": "GLA Player 4",
+      "number": 4,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 13,
+        "metres": 46,
+        "tackles": 17,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "glasgow-p05",
+      "teamId": "glasgow",
+      "name": "GLA Player 5",
+      "number": 5,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 16,
+        "metres": 57,
+        "tackles": 3,
+        "passes": 29,
+        "tries": 0
+      }
+    },
+    {
+      "id": "glasgow-p06",
+      "teamId": "glasgow",
+      "name": "GLA Player 6",
+      "number": 6,
+      "position": "Blindside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 2,
+        "metres": 68,
+        "tackles": 8,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "glasgow-p07",
+      "teamId": "glasgow",
+      "name": "GLA Player 7",
+      "number": 7,
+      "position": "Openside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 5,
+        "metres": 79,
+        "tackles": 13,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "glasgow-p08",
+      "teamId": "glasgow",
+      "name": "GLA Player 8",
+      "number": 8,
+      "position": "Number eight",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 8,
+        "metres": 3,
+        "tackles": 18,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "glasgow-p09",
+      "teamId": "glasgow",
+      "name": "GLA Player 9",
+      "number": 9,
+      "position": "Scrum-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 11,
+        "metres": 14,
+        "tackles": 4,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "glasgow-p10",
+      "teamId": "glasgow",
+      "name": "GLA Player 10",
+      "number": 10,
+      "position": "Fly-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 14,
+        "metres": 25,
+        "tackles": 9,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "glasgow-p11",
+      "teamId": "glasgow",
+      "name": "GLA Player 11",
+      "number": 11,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 0,
+        "metres": 36,
+        "tackles": 14,
+        "passes": 29,
+        "tries": 1
+      }
+    },
+    {
+      "id": "glasgow-p12",
+      "teamId": "glasgow",
+      "name": "GLA Player 12",
+      "number": 12,
+      "position": "Inside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 3,
+        "metres": 47,
+        "tackles": 0,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "glasgow-p13",
+      "teamId": "glasgow",
+      "name": "GLA Player 13",
+      "number": 13,
+      "position": "Outside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 6,
+        "metres": 58,
+        "tackles": 5,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "glasgow-p14",
+      "teamId": "glasgow",
+      "name": "GLA Player 14",
+      "number": 14,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 9,
+        "metres": 69,
+        "tackles": 10,
+        "passes": 8,
+        "tries": 1
+      }
+    },
+    {
+      "id": "glasgow-p15",
+      "teamId": "glasgow",
+      "name": "GLA Player 15",
+      "number": 15,
+      "position": "Full-back",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 12,
+        "metres": 80,
+        "tackles": 15,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "edinburgh-p01",
+      "teamId": "edinburgh",
+      "name": "EDI Player 1",
+      "number": 1,
+      "position": "Loosehead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 4,
+        "metres": 13,
+        "tackles": 2,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "edinburgh-p02",
+      "teamId": "edinburgh",
+      "name": "EDI Player 2",
+      "number": 2,
+      "position": "Hooker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 7,
+        "metres": 24,
+        "tackles": 7,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "edinburgh-p03",
+      "teamId": "edinburgh",
+      "name": "EDI Player 3",
+      "number": 3,
+      "position": "Tighthead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 10,
+        "metres": 35,
+        "tackles": 12,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "edinburgh-p04",
+      "teamId": "edinburgh",
+      "name": "EDI Player 4",
+      "number": 4,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 13,
+        "metres": 46,
+        "tackles": 17,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "edinburgh-p05",
+      "teamId": "edinburgh",
+      "name": "EDI Player 5",
+      "number": 5,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 16,
+        "metres": 57,
+        "tackles": 3,
+        "passes": 29,
+        "tries": 0
+      }
+    },
+    {
+      "id": "edinburgh-p06",
+      "teamId": "edinburgh",
+      "name": "EDI Player 6",
+      "number": 6,
+      "position": "Blindside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 2,
+        "metres": 68,
+        "tackles": 8,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "edinburgh-p07",
+      "teamId": "edinburgh",
+      "name": "EDI Player 7",
+      "number": 7,
+      "position": "Openside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 5,
+        "metres": 79,
+        "tackles": 13,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "edinburgh-p08",
+      "teamId": "edinburgh",
+      "name": "EDI Player 8",
+      "number": 8,
+      "position": "Number eight",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 8,
+        "metres": 3,
+        "tackles": 18,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "edinburgh-p09",
+      "teamId": "edinburgh",
+      "name": "EDI Player 9",
+      "number": 9,
+      "position": "Scrum-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 11,
+        "metres": 14,
+        "tackles": 4,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "edinburgh-p10",
+      "teamId": "edinburgh",
+      "name": "EDI Player 10",
+      "number": 10,
+      "position": "Fly-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 14,
+        "metres": 25,
+        "tackles": 9,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "edinburgh-p11",
+      "teamId": "edinburgh",
+      "name": "EDI Player 11",
+      "number": 11,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 0,
+        "metres": 36,
+        "tackles": 14,
+        "passes": 29,
+        "tries": 1
+      }
+    },
+    {
+      "id": "edinburgh-p12",
+      "teamId": "edinburgh",
+      "name": "EDI Player 12",
+      "number": 12,
+      "position": "Inside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 3,
+        "metres": 47,
+        "tackles": 0,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "edinburgh-p13",
+      "teamId": "edinburgh",
+      "name": "EDI Player 13",
+      "number": 13,
+      "position": "Outside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 6,
+        "metres": 58,
+        "tackles": 5,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "edinburgh-p14",
+      "teamId": "edinburgh",
+      "name": "EDI Player 14",
+      "number": 14,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 9,
+        "metres": 69,
+        "tackles": 10,
+        "passes": 8,
+        "tries": 1
+      }
+    },
+    {
+      "id": "edinburgh-p15",
+      "teamId": "edinburgh",
+      "name": "EDI Player 15",
+      "number": 15,
+      "position": "Full-back",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 12,
+        "metres": 80,
+        "tackles": 15,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "england-women-p01",
+      "teamId": "england-women",
+      "name": "Hannah Botterman",
+      "number": 1,
+      "position": "Loosehead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 4,
+        "metres": 13,
+        "tackles": 2,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "england-women-p02",
+      "teamId": "england-women",
+      "name": "Lark Atkin-Davies",
+      "number": 2,
+      "position": "Hooker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 7,
+        "metres": 24,
+        "tackles": 7,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "england-women-p03",
+      "teamId": "england-women",
+      "name": "Maud Muir",
+      "number": 3,
+      "position": "Tighthead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 10,
+        "metres": 35,
+        "tackles": 12,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "england-women-p04",
+      "teamId": "england-women",
+      "name": "Zoe Aldcroft",
+      "number": 4,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 13,
+        "metres": 46,
+        "tackles": 17,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "england-women-p05",
+      "teamId": "england-women",
+      "name": "Abbie Ward",
+      "number": 5,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 16,
+        "metres": 57,
+        "tackles": 3,
+        "passes": 29,
+        "tries": 0
+      }
+    },
+    {
+      "id": "england-women-p06",
+      "teamId": "england-women",
+      "name": "Alex Matthews",
+      "number": 6,
+      "position": "Blindside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 2,
+        "metres": 68,
+        "tackles": 8,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "england-women-p07",
+      "teamId": "england-women",
+      "name": "Marlie Packer",
+      "number": 7,
+      "position": "Openside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 5,
+        "metres": 79,
+        "tackles": 13,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "england-women-p08",
+      "teamId": "england-women",
+      "name": "Maddie Feaunati",
+      "number": 8,
+      "position": "Number eight",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 8,
+        "metres": 3,
+        "tackles": 18,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "england-women-p09",
+      "teamId": "england-women",
+      "name": "Natasha Hunt",
+      "number": 9,
+      "position": "Scrum-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 11,
+        "metres": 14,
+        "tackles": 4,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "england-women-p10",
+      "teamId": "england-women",
+      "name": "Zoe Harrison",
+      "number": 10,
+      "position": "Fly-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 14,
+        "metres": 25,
+        "tackles": 9,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "england-women-p11",
+      "teamId": "england-women",
+      "name": "Abby Dow",
+      "number": 11,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 0,
+        "metres": 36,
+        "tackles": 14,
+        "passes": 29,
+        "tries": 1
+      }
+    },
+    {
+      "id": "england-women-p12",
+      "teamId": "england-women",
+      "name": "Tatyana Heard",
+      "number": 12,
+      "position": "Inside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 3,
+        "metres": 47,
+        "tackles": 0,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "england-women-p13",
+      "teamId": "england-women",
+      "name": "Megan Jones",
+      "number": 13,
+      "position": "Outside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 6,
+        "metres": 58,
+        "tackles": 5,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "england-women-p14",
+      "teamId": "england-women",
+      "name": "Jess Breach",
+      "number": 14,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 9,
+        "metres": 69,
+        "tackles": 10,
+        "passes": 8,
+        "tries": 1
+      }
+    },
+    {
+      "id": "england-women-p15",
+      "teamId": "england-women",
+      "name": "Ellie Kildunne",
+      "number": 15,
+      "position": "Full-back",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 12,
+        "metres": 80,
+        "tackles": 15,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-women-p01",
+      "teamId": "new-zealand-women",
+      "name": "Chryss Viliko",
+      "number": 1,
+      "position": "Loosehead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 4,
+        "metres": 13,
+        "tackles": 2,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-women-p02",
+      "teamId": "new-zealand-women",
+      "name": "Georgia Ponsonby",
+      "number": 2,
+      "position": "Hooker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 7,
+        "metres": 24,
+        "tackles": 7,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-women-p03",
+      "teamId": "new-zealand-women",
+      "name": "Amy Rule",
+      "number": 3,
+      "position": "Tighthead prop",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 10,
+        "metres": 35,
+        "tackles": 12,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-women-p04",
+      "teamId": "new-zealand-women",
+      "name": "Chelsea Bremner",
+      "number": 4,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 13,
+        "metres": 46,
+        "tackles": 17,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-women-p05",
+      "teamId": "new-zealand-women",
+      "name": "Maiakawanakaulani Roos",
+      "number": 5,
+      "position": "Lock",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 16,
+        "metres": 57,
+        "tackles": 3,
+        "passes": 29,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-women-p06",
+      "teamId": "new-zealand-women",
+      "name": "Alana Bremner",
+      "number": 6,
+      "position": "Blindside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 2,
+        "metres": 68,
+        "tackles": 8,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-women-p07",
+      "teamId": "new-zealand-women",
+      "name": "Kennedy Tukuafu",
+      "number": 7,
+      "position": "Openside flanker",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 5,
+        "metres": 79,
+        "tackles": 13,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-women-p08",
+      "teamId": "new-zealand-women",
+      "name": "Liana Mikaele-Tu’u",
+      "number": 8,
+      "position": "Number eight",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 8,
+        "metres": 3,
+        "tackles": 18,
+        "passes": 8,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-women-p09",
+      "teamId": "new-zealand-women",
+      "name": "Ariana Bayler",
+      "number": 9,
+      "position": "Scrum-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 11,
+        "metres": 14,
+        "tackles": 4,
+        "passes": 15,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-women-p10",
+      "teamId": "new-zealand-women",
+      "name": "Ruahei Demant",
+      "number": 10,
+      "position": "Fly-half",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 14,
+        "metres": 25,
+        "tackles": 9,
+        "passes": 22,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-women-p11",
+      "teamId": "new-zealand-women",
+      "name": "Ayesha Leti-I’iga",
+      "number": 11,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 0,
+        "metres": 36,
+        "tackles": 14,
+        "passes": 29,
+        "tries": 1
+      }
+    },
+    {
+      "id": "new-zealand-women-p12",
+      "teamId": "new-zealand-women",
+      "name": "Sylvia Brunt",
+      "number": 12,
+      "position": "Inside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 3,
+        "metres": 47,
+        "tackles": 0,
+        "passes": 36,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-women-p13",
+      "teamId": "new-zealand-women",
+      "name": "Amy du Plessis",
+      "number": 13,
+      "position": "Outside centre",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 6,
+        "metres": 58,
+        "tackles": 5,
+        "passes": 1,
+        "tries": 0
+      }
+    },
+    {
+      "id": "new-zealand-women-p14",
+      "teamId": "new-zealand-women",
+      "name": "Katelyn Vahaakolo",
+      "number": 14,
+      "position": "Wing",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 9,
+        "metres": 69,
+        "tackles": 10,
+        "passes": 8,
+        "tries": 1
+      }
+    },
+    {
+      "id": "new-zealand-women-p15",
+      "teamId": "new-zealand-women",
+      "name": "Renee Holmes",
+      "number": 15,
+      "position": "Full-back",
+      "imageUrl": null,
+      "sample": true,
+      "stats": {
+        "carries": 12,
+        "metres": 80,
+        "tackles": 15,
+        "passes": 15,
+        "tries": 0
+      }
+    }
+  ],
+  "matches": [
+    {
+      "id": "sa-nz-demo",
+      "homeId": "south-africa",
+      "awayId": "new-zealand",
+      "competitionId": "internationals-men",
+      "date": "2026-11-14",
+      "kickoff": "2026-11-14T15:00:00Z",
+      "status": "LIVE",
+      "homeScore": 24,
+      "awayScore": 21,
+      "minute": 68,
+      "venue": "Emirates Airline Park, Johannesburg",
+      "sample": true,
+      "coverage": "full",
+      "lastUpdated": "2026-11-14T16:08:00Z",
+      "stats": {
+        "possession": [
+          54,
+          46
+        ],
+        "territory": [
+          58,
+          42
+        ],
+        "metres": [
+          386,
+          314
+        ],
+        "carries": [
+          89,
+          76
+        ],
+        "tackles": [
+          98,
+          117
+        ],
+        "lineouts": [
+          12,
+          10
+        ],
+        "scrums": [
+          5,
+          4
+        ],
+        "penalties": [
+          7,
+          9
+        ]
+      },
+      "events": [
+        {
+          "id": "sa-nz-demo-ev-0",
+          "minute": 68,
+          "type": "Try",
+          "teamId": "south-africa",
+          "player": "C. Kolbe",
+          "score": "24 – 21"
+        },
+        {
+          "id": "sa-nz-demo-ev-1",
+          "minute": 63,
+          "type": "Penalty",
+          "teamId": "south-africa",
+          "player": "H. Pollard",
+          "score": "19 – 21"
+        },
+        {
+          "id": "sa-nz-demo-ev-2",
+          "minute": 56,
+          "type": "Try",
+          "teamId": "new-zealand",
+          "player": "W. Jordan",
+          "score": "16 – 21"
+        },
+        {
+          "id": "sa-nz-demo-ev-3",
+          "minute": 49,
+          "type": "Conversion",
+          "teamId": "new-zealand",
+          "player": "B. Barrett",
+          "score": "16 – 14"
+        },
+        {
+          "id": "sa-nz-demo-ev-4",
+          "minute": 42,
+          "type": "Try",
+          "teamId": "new-zealand",
+          "player": "R. Ioane",
+          "score": "16 – 12"
+        },
+        {
+          "id": "sa-nz-demo-ev-5",
+          "minute": 36,
+          "type": "Try",
+          "teamId": "south-africa",
+          "player": "D. de Allende",
+          "score": "16 – 7"
+        }
+      ]
+    },
+    {
+      "id": "ire-arg-demo",
+      "homeId": "ireland",
+      "awayId": "argentina",
+      "competitionId": "internationals-men",
+      "date": "2026-11-14",
+      "kickoff": "2026-11-14T15:00:00Z",
+      "status": "FINISHED",
+      "homeScore": 32,
+      "awayScore": 17,
+      "minute": null,
+      "venue": "Sample venue",
+      "sample": true,
+      "coverage": "full",
+      "lastUpdated": null,
+      "stats": {
+        "possession": [
+          54,
+          46
+        ],
+        "territory": [
+          58,
+          42
+        ],
+        "metres": [
+          386,
+          314
+        ],
+        "carries": [
+          89,
+          76
+        ],
+        "tackles": [
+          98,
+          117
+        ],
+        "lineouts": [
+          12,
+          10
+        ],
+        "scrums": [
+          5,
+          4
+        ],
+        "penalties": [
+          7,
+          9
+        ]
+      },
+      "events": []
+    },
+    {
+      "id": "fra-aus-demo",
+      "homeId": "france",
+      "awayId": "australia",
+      "competitionId": "internationals-men",
+      "date": "2026-11-14",
+      "kickoff": "2026-11-14T20:10:00Z",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "minute": null,
+      "venue": "Sample venue",
+      "sample": true,
+      "coverage": "full",
+      "lastUpdated": null,
+      "stats": null,
+      "events": []
+    },
+    {
+      "id": "lei-mun-demo",
+      "homeId": "leinster",
+      "awayId": "munster",
+      "competitionId": "urc",
+      "date": "2026-11-14",
+      "kickoff": "2026-11-14T15:00:00Z",
+      "status": "FINISHED",
+      "homeScore": 27,
+      "awayScore": 19,
+      "minute": null,
+      "venue": "Sample venue",
+      "sample": true,
+      "coverage": "full",
+      "lastUpdated": null,
+      "stats": {
+        "possession": [
+          54,
+          46
+        ],
+        "territory": [
+          58,
+          42
+        ],
+        "metres": [
+          386,
+          314
+        ],
+        "carries": [
+          89,
+          76
+        ],
+        "tackles": [
+          98,
+          117
+        ],
+        "lineouts": [
+          12,
+          10
+        ],
+        "scrums": [
+          5,
+          4
+        ],
+        "penalties": [
+          7,
+          9
+        ]
+      },
+      "events": []
+    },
+    {
+      "id": "gla-edi-demo",
+      "homeId": "glasgow",
+      "awayId": "edinburgh",
+      "competitionId": "urc",
+      "date": "2026-11-14",
+      "kickoff": "2026-11-14T19:35:00Z",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "minute": null,
+      "venue": "Sample venue",
+      "sample": true,
+      "coverage": "scores",
+      "lastUpdated": null,
+      "stats": null,
+      "events": []
+    },
+    {
+      "id": "eng-nzw-demo",
+      "homeId": "england-women",
+      "awayId": "new-zealand-women",
+      "competitionId": "internationals-women",
+      "date": "2026-11-14",
+      "kickoff": "2026-11-14T15:00:00Z",
+      "status": "LIVE",
+      "homeScore": 21,
+      "awayScore": 17,
+      "minute": 61,
+      "venue": "Sample venue",
+      "sample": true,
+      "coverage": "full",
+      "lastUpdated": "2026-11-14T16:08:00Z",
+      "stats": {
+        "possession": [
+          54,
+          46
+        ],
+        "territory": [
+          58,
+          42
+        ],
+        "metres": [
+          386,
+          314
+        ],
+        "carries": [
+          89,
+          76
+        ],
+        "tackles": [
+          98,
+          117
+        ],
+        "lineouts": [
+          12,
+          10
+        ],
+        "scrums": [
+          5,
+          4
+        ],
+        "penalties": [
+          7,
+          9
+        ]
+      },
+      "events": []
+    },
+    {
+      "id": "mun-gla-demo",
+      "homeId": "munster",
+      "awayId": "glasgow",
+      "competitionId": "urc",
+      "date": "2026-11-15",
+      "kickoff": "2026-11-15T17:15:00Z",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null,
+      "minute": null,
+      "venue": "Sample venue",
+      "sample": true,
+      "coverage": "scores",
+      "lastUpdated": null,
+      "stats": null,
+      "events": []
+    },
+    {
+      "id": "ire-nz-demo",
+      "homeId": "ireland",
+      "awayId": "new-zealand",
+      "competitionId": "internationals-men",
+      "date": "2026-11-13",
+      "kickoff": "2026-11-13T15:00:00Z",
+      "status": "FINISHED",
+      "homeScore": 28,
+      "awayScore": 24,
+      "minute": null,
+      "venue": "Sample venue",
+      "sample": true,
+      "coverage": "full",
+      "lastUpdated": null,
+      "stats": {
+        "possession": [
+          54,
+          46
+        ],
+        "territory": [
+          58,
+          42
+        ],
+        "metres": [
+          386,
+          314
+        ],
+        "carries": [
+          89,
+          76
+        ],
+        "tackles": [
+          98,
+          117
+        ],
+        "lineouts": [
+          12,
+          10
+        ],
+        "scrums": [
+          5,
+          4
+        ],
+        "penalties": [
+          7,
+          9
+        ]
+      },
+      "events": []
+    }
+  ]
+}

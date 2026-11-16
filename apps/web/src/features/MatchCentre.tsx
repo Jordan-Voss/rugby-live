@@ -1,0 +1,21 @@
+import { useRef,useState } from 'react';
+import { CalendarDays,ChevronLeft,ChevronRight,Info,Search,X } from 'lucide-react';
+import { CompetitionIcon } from '../components/Identity';
+import { EmptyState } from '../components/EmptyState';
+import { MatchRow } from '../components/MatchRow';
+import { dateOffset,dayLabel } from '../lib/api';
+import type { Data,Selection } from '../lib/types';
+export function MatchCentre({data,selection,select,onFollow}:{data:Data;selection:Selection;select:(s:Selection)=>void;onFollow:()=>void}){
+ const [date,setDate]=useState(data.defaultDate),[live,setLive]=useState(false),[gender,setGender]=useState('all'),[query,setQuery]=useState(''),[search,setSearch]=useState(false);
+ const input=useRef<HTMLInputElement>(null);
+ const start=dateOffset(date,-((new Date(date+'T12:00:00Z').getUTCDay()+1)%7));
+ const week=Array.from({length:7},(_,i)=>dateOffset(start,i));
+ const matches=data.matches.filter(m=>m.date===date&&(!live||m.status==='LIVE')&&(gender==='all'||data.competitions.find(c=>c.id===m.competitionId)?.gender===gender)&&(!query||[m.homeId,m.awayId].some(id=>data.teams.find(t=>t.id===id)?.name.toLowerCase().includes(query.toLowerCase()))));
+ return <main className="centre"><div className="centre-heading"><div><h1>Matches</h1><p>{dayLabel(date)}</p></div><div className="heading-actions"><button className="icon-button" aria-label="Search matches" onClick={()=>setSearch(!search)}>{search?<X size={20}/>:<Search size={20}/>}</button><button className="calendar-button" aria-label="Open calendar" onClick={()=>input.current?.showPicker()}><CalendarDays size={23}/><input ref={input} aria-label="Choose match date" type="date" value={date} onChange={e=>e.target.value&&setDate(e.target.value)}/></button></div></div>
+ {search&&<input className="search-input" autoFocus placeholder="Search teams…" aria-label="Search teams" value={query} onChange={e=>setQuery(e.target.value)}/>}
+ <div className="calendar-strip"><button className="week-arrow" aria-label="Previous week" onClick={()=>setDate(dateOffset(date,-7))}><ChevronLeft size={16}/></button><div className="week-days">{week.map(d=><button key={d} onClick={()=>setDate(d)} className={d===date?'date-cell active':'date-cell'} aria-pressed={d===date}><span>{new Date(d+'T12:00:00').toLocaleDateString('en-GB',{weekday:'short'})}</span><strong>{Number(d.slice(-2))}</strong>{data.matches.some(m=>m.date===d)&&<i/>}</button>)}</div><button className="week-arrow" aria-label="Next week" onClick={()=>setDate(dateOffset(date,7))}><ChevronRight size={16}/></button></div>
+ <div className="match-filters"><div className="segmented" aria-label="Competition category">{[['all','All matches'],['men','Men'],['women','Women']].map(([value,label])=><button key={value} className={gender===value?'active':''} onClick={()=>setGender(value)}>{label}</button>)}</div><button className="live-toggle" aria-pressed={live} onClick={()=>setLive(!live)}>Live <span className={live?'switch on':'switch'}><i/></span></button></div>
+ <div className="sample-banner"><Info size={17}/><span>Sample matches <b>·</b> Live data is not connected</span></div>
+ <div className="competition-groups">{data.competitions.map(c=>{const rows=matches.filter(m=>m.competitionId===c.id);return rows.length?<section className="competition-group" key={c.id}><button className="competition-heading" onClick={()=>select({kind:'competition',id:c.id})}><CompetitionIcon id={c.id}/><span>{c.name}</span><ChevronRight size={18}/></button>{rows.map(m=><MatchRow key={m.id} match={m} teams={data.teams} selected={selection?.kind==='match'&&selection.id===m.id} onSelect={()=>select({kind:'match',id:m.id})} onFollow={onFollow}/>)}</section>:null;})}{matches.length===0&&<EmptyState title={live?'No live sample matches':'No matches for this date'} kind="calendar" action={<button className="text-button" onClick={()=>{setDate(data.defaultDate);setLive(false);setGender('all');setQuery('');}}>Return to sample matchday</button>}>This preview includes sample fixtures for 13–15 November. Real fixtures will appear when a data provider is connected.</EmptyState>}</div>
+ <footer className="centre-footer"><span>All times are local to your device</span><span>Rugby union · Men & women</span></footer></main>
+}

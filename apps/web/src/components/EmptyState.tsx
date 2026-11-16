@@ -1,0 +1,2 @@
+import { Database,CalendarDays,WifiOff } from 'lucide-react';
+export function EmptyState({title,children,kind='data',action}:{title:string;children:React.ReactNode;kind?:'data'|'calendar'|'network';action?:React.ReactNode}){const Icon=kind==='calendar'?CalendarDays:kind==='network'?WifiOff:Database;return <div className="empty-state"><span className="empty-icon"><Icon size={25}/></span><h3>{title}</h3><p>{children}</p>{action}</div>}
