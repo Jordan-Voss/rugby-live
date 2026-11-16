@@ -1,0 +1,16 @@
+import {copyFile,mkdir} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import {loadAndParseConfig} from '@cloudflare/config';
+import {cleanBuildOutputDir,getWorkerBundleDir,readBuildOutput,writeRootConfig,writeWorkerConfig} from '@cloudflare/build-output-utils';
+const root=process.cwd(),buildContext={isPreview:false,mode:'production'};
+const {result}=await loadAndParseConfig(resolve('cloudflare.config.ts'),buildContext);
+if(!result.success)throw result.error;
+const config=result.data;
+await cleanBuildOutputDir(root);
+await writeRootConfig({root,settings:{accountId:config.accountId},buildContext});
+const bundleDir=getWorkerBundleDir(root);
+await mkdir(bundleDir,{recursive:true});
+await copyFile('dist/server/index.js',resolve(bundleDir,'index.js'));
+await writeWorkerConfig({root,config:config.worker,manifest:{type:'complete',mainModule:'index.js',modules:{'index.js':{type:'esm'}}}});
+await readBuildOutput(root);
+console.log('Validated Cloudflare build output for rugby-live.');

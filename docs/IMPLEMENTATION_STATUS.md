@@ -1,13 +1,20 @@
-# First version
+# Current implementation status
 
-Implemented: sample match browsing, calendar/date search, live/category filters, timeline, pitch/list lineups, player comparison, team and competition pages, missing-data states, device-aware light/dark, read-only Spring API and hosted sample API.
+## Ready
 
-Verified: TypeScript/production build; five Spring HTTP integration tests; four Worker-contract tests. The Spring API returns health UP and zero provider calls.
+- Original-app-based Ionic React interface; restored logos, theme, five bottom tabs, date strip and expandable match lists.
+- Collapsing clickable score header; swipe match tabs; original pitch positions, event cards and collapsible stat cards; missing-data states; team/player/competition navigation.
+- Dedicated Cloudflare Worker deployed, with its custom hostname, DNS record and certificate configuration confirmed through the Cloudflare API; reproducible pinned cf build/deploy commands.
+- Generated Capacitor 8 iOS project, original 1024px RGB icon, shared Xcode scheme, bundled sample data.
+- Manual GitHub macOS TestFlight archive/upload workflow and complete owner setup guide.
+- Web TypeScript/Vite build, sample API tests, packaged asset/SPA/API verification, Cloudflare deployment dry run and Capacitor sync.
 
-Not connected: live providers, history imports, account sign-in, stored follows, notifications, news, paid subscriptions and dedicated Supabase. No external provider calls are made. The sample feed is stationary and explicitly marked.
+## Requires owner setup / verification
 
-Native: Capacitor config/dependencies only. No signed iPhone/Android build or physical-device verification.
+- Apple Developer app record, signing credentials and first TestFlight archive/upload. No signed native build or Apple review has happened here.
+- Browser/device visual QA: runtime unavailable in this environment. Exact visual fidelity is unverified. Direct production HTTP checks are blocked by the workspace network proxy; Cloudflare confirms deployment and the hostname mapping.
+- Optional Git-to-Cloudflare automatic deployment connection.
 
-Browser QA: attempted shared browser; runtime reported unavailable. Browser appearance and gesture fidelity remain unverified. No alternate browser installation was attempted, per managed Sites instructions.
+## Agreed later
 
-Production: private Sites preview has a read-only Worker API. The actual Java backend is built and locally verified but needs separate hosting. Owner-account Cloudflare settings are prepared only; not deployed.
+Real provider calls, permissions/licensing, quota ceilings, data-field/source priority, dedicated RugbyLive Supabase, persistent accounts/following, notifications, standings/history, news, offline support, monetisation and sevens. No provider credentials have been requested or embedded. Sample data is not live.

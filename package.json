@@ -7,23 +7,32 @@
     "dev": "node scripts/dev.mjs",
     "build": "tsc -p apps/web/tsconfig.json --noEmit && vite build --config apps/web/vite.config.ts && node scripts/build-preview.mjs",
     "test": "node --test tests/*.test.mjs",
-    "cap:sync": "cap sync"
+    "cap:sync": "cap sync",
+    "ios:sync": "npm run build && cap sync ios",
+    "ios:open": "cap open ios",
+    "cloudflare:build": "npm run build && node scripts/verify-build.mjs && node scripts/build-cloudflare.mjs",
+    "cloudflare:deploy": "npm run cloudflare:build && cf deploy --prebuilt --mode production"
   },
   "dependencies": {
     "@capacitor/android": "8.0.0",
     "@capacitor/core": "8.0.0",
     "@capacitor/ios": "8.0.0",
+    "@ionic/react": "8.7.12",
     "@supabase/supabase-js": "2.119.0",
+    "ionicons": "8.0.13",
     "lucide-react": "0.468.0",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
   "devDependencies": {
     "@capacitor/cli": "8.0.0",
+    "@cloudflare/build-output-utils": "1.0.0-rc.0",
+    "@cloudflare/config": "1.0.0-rc.0",
     "@types/node": "22.15.30",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
     "@vitejs/plugin-react": "5.1.1",
+    "cf": "1.0.0-rc.0",
     "typescript": "5.9.3",
     "vite": "7.2.2"
   }

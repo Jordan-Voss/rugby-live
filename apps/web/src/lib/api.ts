@@ -1,6 +1,9 @@
+import { Capacitor } from '@capacitor/core';
+import bundledData from '../../../../shared/demo-data.json';
 import type { Data } from './types';
 export const API_BASE=(import.meta.env.VITE_API_BASE_URL||'/api/v1').replace(/\/$/,'');
 export async function loadData(signal?:AbortSignal):Promise<Data>{
+ if(Capacitor.isNativePlatform()&&!import.meta.env.VITE_API_BASE_URL)return bundledData as Data;
  const response=await fetch(`${API_BASE}/bootstrap`,{signal,headers:{Accept:'application/json'}});
  if(!response.ok)throw new Error('The match centre could not connect. Please try again.');
  const data=await response.json();

@@ -1,3 +1,3 @@
 import type { CapacitorConfig } from '@capacitor/cli';
-const config: CapacitorConfig = {appId:'dev.jordanvoss.rugbylive',appName:'RugbyLive',webDir:'dist/client',ios:{contentInset:'automatic'},backgroundColor:'#ffffff'};
+const config: CapacitorConfig = {appId:'dev.jordanvoss.rugbylive',appName:'RugbyLive',webDir:'dist/client',ios:{contentInset:'never'},backgroundColor:'#ffffff'};
 export default config;

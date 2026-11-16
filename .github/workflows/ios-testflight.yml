@@ -1,0 +1,52 @@
+name: iOS TestFlight
+
+# Run explicitly after the owner has created the Apple app and configured secrets.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: rugbylive-testflight
+  cancel-in-progress: false
+
+jobs:
+  testflight:
+    runs-on: macos-26
+    timeout-minutes: 45
+    env:
+      APPLE_TEAM_ID: ${{ vars.APPLE_TEAM_ID }}
+      IOS_BUNDLE_ID: ${{ vars.IOS_BUNDLE_ID || 'dev.jordanvoss.rugbylive' }}
+      ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+      ASC_PRIVATE_KEY: ${{ secrets.ASC_PRIVATE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - name: Check Apple configuration
+        shell: bash
+        run: |
+          for name in APPLE_TEAM_ID ASC_KEY_ID ASC_ISSUER_ID ASC_PRIVATE_KEY; do
+            if [ -z "${!name}" ]; then
+              echo "::error::Missing $name. See docs/TESTFLIGHT.md."
+              exit 1
+            fi
+          done
+          xcodebuild -version
+      - run: npm ci
+      - run: npm test
+      - run: npm run ios:sync
+      - name: Archive and upload to TestFlight
+        run: bash scripts/ios/testflight.sh
+      - name: Save exported archive metadata
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rugbylive-testflight-export
+          path: build/ios/export/*.plist
+          if-no-files-found: ignore
+          retention-days: 7

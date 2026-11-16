@@ -1,7 +1,13 @@
-# Matchday Emerald
+# Original RugbyLive interface
 
-Themely-generated semantic theme, matched to the initial product concept. White surfaces on #f5f7f9, text #141d2b, secondary text #657181, emerald #007f5b, tinted states #e8f6ed, borders #e4e9ee. Light is the design baseline; system appearance is the runtime default. Manual light/dark selection is device-local.
+The visual source is `RugbyLiveScoreApp`, specifically its five-tab layout, matches header/date selector/league rows, match screen, event cards, pitch view and theme definitions. The earlier emerald two-column design is no longer the app entrypoint.
 
-8/16/24px spacing rhythm; 9px controls, 16px main panels. System body fallback with optional Inter and condensed brand typography. Team colours are accents and never the sole status indicator. Visible text and controls are code-native; team shields and player silhouettes are original placeholders, not licensed official logos or photographs.
+- Light: background `#F5F7FA`, surface `#FFFFFF`, text `#34495E`, muted `#7F8C8D`, accent `#E74C3C`.
+- Dark: background `#2E3E54`, surface `#2C3E50`, text white, borders `#34495E`, accent `#E67E22`.
+- Match section indicator: `#F05340`; in-play row/time indicator: `#3498DB`.
+- System typography, original RugbyLive logos/pitch/default portrait, original asymmetric XV pitch positions.
+- Light/dark follows the device unless explicitly overridden; reduced-motion preferences remain respected.
 
-Reference concept generated at /workspace/generated_images/exec-0e5af125-e7e2-4c76-bd24-36652384a17c.png (working-session artifact; not shipped). Browser runtime is unavailable, so screenshot-to-concept fidelity and real-device touch behaviour are not claimed verified.
+`LegacyApp.tsx`, `original.css` and `OriginalMatchContent.tsx` implement the restored layout. `Profiles.tsx` adds the requested team/player details. Team and competition badges remain placeholders until source assets are chosen; no official crests are fabricated or downloaded from unapproved sources.
+
+Verification limit: the browser runtime was unavailable, so no rendered-reference or iPhone comparison was completed. Source-based restoration is not a claim of pixel-perfect fidelity. Native safe areas, scrolling and animation still need a signed-device/simulator check.

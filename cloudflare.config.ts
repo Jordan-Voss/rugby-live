@@ -1,11 +1,14 @@
-import { defineConfig } from 'cf/config';
-// Separate Worker, no bindings to Taghetti or Plateful. Secrets must be entered in hosting settings.
+import {defineConfig} from 'cf/config';
+
+// The first release is deliberately self-contained: original app assets plus
+// the sample-only API, with no database/provider credentials or paid bindings.
 export default defineConfig({
- worker: {
-  name:'rugby-live',
-  entrypoint:'./worker/index.mjs',
-  compatibilityDate:'2026-11-16',
-  assets:{directory:'./dist/client',binding:'ASSETS',notFoundHandling:'single-page-application',runWorkerFirst:['/api/*']},
-  observability:{enabled:true,traces:{enabled:true}},
- },
+  accountId:'a4a8a6977c12dfe478ec3ce8323a1546',
+  worker:{
+    name:'rugby-live',
+    entrypoint:'./dist/server/index.js',
+    compatibilityDate:'2026-11-16',
+    domains:['rugbylive.jordanvoss.dev'],
+    observability:{enabled:true},
+  },
 });
